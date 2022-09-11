@@ -1,0 +1,72 @@
+CORES E BACKGROUNDS
+	
+FORMATAÇÃO DE CORES PARA TEXTOS
+	
+	A class text-primary criar a cor azul
+	<h1 class="text-primary">Texto primary</h1>
+
+	A class text-secundary cria uma cor azul escuro
+    	<h1 class="text-secondary">Texto secondary</h1>
+
+	A class text-success cria uma cor verde
+    	<h1 class="text-success">Texto success</h1>
+
+	A class text-info cria uma cor azul bebe
+    	<h1 class="text-info">Texto info</h1>
+
+	A class text-warning cria uma cor laranja
+    	<h1 class="text-warning">Texto warning</h1>
+
+	A clas text-dange criar uma cor vermelha
+    	<h1 class="text-danger">Texto danger</h1>
+
+	A clas text-light cria uma cor clara
+    	<h1 class="text-light">Texto light</h1>
+
+	A clas text-dark cria uma cor escura
+    	<h1 class="text-dark">Texto dark</h1>
+
+	A class text-white cria uma cor branca
+    	<h1 class="text-white">Texto white</h1>
+
+	A class text-black-50 cria uma cor escura com opacidade de 50%
+    	<h1 class="text-black-50">Texto black 50</h1>
+
+	A class text-white-50 cria uma cor clara com opacidade de 50%
+    	<h1 class="text-white-50">Texto white</h1>
+
+
+FORMATAÇÃO DE CORES PARA LINKS
+	A classes utilizadas para a formatação de cores para textos, são as mesmas usadas para a configuração de cores para links
+
+
+BACKGROUNDS
+	A class bg-primary cria um background azul
+	<div class="bg-primary">Background primary</div>
+
+	A class bg-secondary cria um background azul escuro
+    	<div class="bg-secondary">Background secondary</div>
+
+	A class bg-success cria um background verde
+    	<div class="bg-success">Background success</div>
+
+	A class bg-inf cria um background azul bebe
+    	<div class="bg-info">Background info</div>
+
+	A class bg-warning cria um background laranja
+    	<div class="bg-warning">Background warning</div>
+
+	A class bg-danger cria um background vermelho
+    	<div class="bg-danger">Background danger</div>
+
+	A class bg-light cria um background claro
+    	<div class="bg-light">Background light</div>
+
+	A class bg-dark cria um background escuro
+    	<div class="bg-dark text-white">Background dark</div>
+
+	A class bg-white cria um background branco
+    	<div class="bg-white">Background white</div>
+
+	A cla bg-transparent cria um background transparente
+    	<div class="bg-transparent">Background transparent</div>

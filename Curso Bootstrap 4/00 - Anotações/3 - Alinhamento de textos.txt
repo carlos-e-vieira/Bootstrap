@@ -1,0 +1,49 @@
+ALINHAMENTOS DE TEXTOS
+
+ALINHAMENTO JUSTIFICADO
+	A class text-justify  é utilizada para justificar os textos ou seja, deixar eles colados no container
+	<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+ALINHAMENTOS RESPONSIVOS
+	SN - SMALL
+	A class text sm (Small) é usada para alinhamentos em dispositivos com tela maior ou igual a 576px - Celulares
+	<p class="text-sm-right">tela &gt;= 576px</p><!--Small-->
+
+	MD - MEDIUM
+	A class text md (Medium) é usada para alinhamentos em dispositivos com tela maior ou igual a 768px - Tablets
+	<p class="text-md-right">tela &gt;=  768px</p><!--Medium-->
+
+	LG - LARGE
+	A class text lg (Large) é usada para alinhamentos em dispositivos com tela maior ou igual a 992px - Notebooks
+	<p class="text-lg-right">tela &gt;= 992px</p><!--Large-->
+
+	XD - EXTRA LARGE
+	A class text xl (Extra Large) é usada para alinhamentos em dispositivos com tela maior ou igual a 576px - Computadores
+	<p class="text-xl-right">tela &gt;= 1200px</p><!--Extra Large-->
+
+
+ELEMENTO BLOCK PARA INLINE
+	A class d-inline é usada para converter elementos blocks em inline
+	<h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+
+	
+ELEMENTOS INLINE EM BLOCK
+	A class d-block é usada para converter elementos inline em block
+	<span class="d-block">Lorem ipsum dolor 1</span>
+
+
+ELEMENTOS INLINE E BLOCKS -  HIBRIDOS
+	A class d-inline-block tranforma elementos em inline e blocks ao mesmo tempo, isso ajuda a definir margem aos elementos
+	<h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+
+
+BG COLORS NATIVAS DO BOOTSTRAP
+	A class bg-success  criar um background padrão de cor verde
+	<h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+
+	A class bg-warning  criar um background padrão de cor laranja
+	<div class="bg-warning">
+        	<h3 class="d-inline-block">Lorem ipsum</h3>
+    	</div>
+	

@@ -1,0 +1,55 @@
+ELEMENTOS FLUTUANTES
+
+ELEMENTOS FLUTUANTES
+	FLUTUAR PARA ESQUERDA
+	A class floa-left faz os elementos flutuarem a esquerda
+	<div class="bg-success float-left">Float Left</div>
+	
+	FLUTUAR PARA A DIREIRA
+	A class float-right faz os elementos flutuarem a direita
+	<div class="bg-success float-right">Float Left</div>
+
+	CLEARFIX - LIMPAR FLOAT
+	A class clearfix é usada na div para para limpar automaticamente o float, assim o proximo elemento não flutuara automaticamente
+	<div style="border: 1px solid red" class="clearfix">
+        	<div class="bg-success float-left">Float Left</div>
+        	<div class="bg-warning float-right">Float Right</div>
+    	</div>
+
+
+POSICIONAMENTO FIXO
+	A class fixed-top  ou fixed-bottom faz o elemento colar no top ou no rodapé
+	<h1 class="bg-warning fixed-bottom">Título do conteúdo fixo</h1>
+
+
+FLOAT RESPONSIVO
+	SN - SMALL
+	A class float-sm (Small) é usada para alinhamentos em dispositivos com tela maior ou igual a 576px - Celulares
+	<p class="float-sm-right">tela &gt;= 576px</p><!--Small-->
+
+	MD - MEDIUM
+	A class float-md (Medium) é usada para alinhamentos em dispositivos com tela maior ou igual a 768px - Tablets
+	<p class="float-md-right">tela &gt;=  768px</p><!--Medium-->
+
+	LG - LARGE
+	A class float-lg (Large) é usada para alinhamentos em dispositivos com tela maior ou igual a 992px - Notebooks
+	<p class="float-lg-right">tela &gt;= 992px</p><!--Large-->
+
+	XD - EXTRA LARGE
+	A class float-xl (Extra Large) é usada para alinhamentos em dispositivos com tela maior ou igual a 576px - Computadores
+	<p class="float-xl-right">tela &gt;= 1200px</p><!--Extra Large-->
+
+
+COLAR NO TOP - STICKY
+	A class sticky-top faz o elemento colar no topo quando ele chega ao top, essa class é muito usada para menus ficarem colados
+	<ul class="list-inline bg-warning sticky-top">
+      		<li class="list-inline-item">Item 1</li>
+      		<li class="list-inline-item">Item 2</li>
+      		<li class="list-inline-item">Item 3</li>
+    	</ul>
+
+
+
+
+
+	

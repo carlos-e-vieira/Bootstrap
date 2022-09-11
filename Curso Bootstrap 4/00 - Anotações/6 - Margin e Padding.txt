@@ -1,0 +1,28 @@
+MARGIN E PADDING
+
+MARGIN
+	mt -> Margin Top
+    	mb -> Margin Bottom
+    	ml -> Margin Left
+    	mr -> Margin Right
+    	mx -> Margin no eixo x (horizontal) esquerda/direita
+    	my -> Margin no eixo y (vertical) top/bottom
+    	m  -> Margin em todos os lados
+    	Valor a definir (0 até 5)
+
+	As classes m , mt, mb, ml, mr, mx, mx são utlizadas para criar uma margim padrão de 0 a 5
+	<p class="bg-success m-5">Conteúdo principal</p>
+
+
+PADDING
+	pt -> Padding Top
+    	pb -> Padding Bottom
+    	pl -> Padding Left
+    	pr -> Padding Right
+    	px -> Padding no eixo x (horizontal) esquerda/direita
+    	py -> Padding no eixo y (vertical) top/bottom
+    	p  -> Padding em todos os lados
+    	Valor a definir (0 até 5)
+
+	As classes p, pt, pb, pr, pl, px, py  são utlizadas para criar paddings padrão de 0 a 5
+	<p class="bg-success pt-5">Conteúdo principal</p>

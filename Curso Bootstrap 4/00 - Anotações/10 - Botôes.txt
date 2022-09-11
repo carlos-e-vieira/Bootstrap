@@ -1,0 +1,115 @@
+BOTÕES
+	A class btn cria botões no bootstrap
+	No html 5 usamos a tag <button> para criar botões
+	<button class="btn" type="button">Clique</button>
+
+
+CORES NOS BOTÕES
+	Na class btn podemos aplicar cores padrões do bootstrap
+	<button class="btn btn-primary" type="button">Clique</button>
+
+
+BOTÕES COM DIFERENTES TAGS HTML 5
+	Podemos criar botões com varias tags diferentes e todas as tags ficaraõ iguais como botões bootstrap
+	
+	Transformar um link em botão
+	<a class="btn btn-info" href="#">Link</a>
+
+	Botão tag button
+    	<button class="btn btn-info" type="submit">Submit</button>
+
+	Tranformar um input do tipo button em botão
+    	<input class="btn btn-info" type="button" value="Button">
+
+	Tranformar um input do tipo submit em botão
+    	<input class="btn btn-info" type="submit" value="Input Submit">
+
+	Tranformar um input do tipo reset em botão
+    	<input class="btn btn-info" type="reset" value="Reset">
+
+
+BOTÕES COM CONTORNO
+	 A class btn-outline-primary cria um botão com contorno e com um efeito hover vazado, do branco pra cor definida
+	<button class="btn btn-outline-primary" type="button">Clique</button>
+
+
+TAMANHOS DE BOTÕES
+	A class btn-lg cria um botão grande
+	<button class="btn btn-success btn-lg" type="button">Grande</button>
+	
+	A class btn-sm cria um botão pequeno
+    	<button class="btn btn-success btn-sm" type="button">Pequeno</button>
+
+
+BOTÃO EM BLOCO
+	A class btn-block cria um botão que ocupa toda a width do container
+	<button class="btn btn-block btn-danger" type="button">Bloco</button>]
+
+
+ESTADOS DE BOTÕES
+	A class active deixa o botão com estado ativado
+	<button class="btn btn-info active" type="button">Ativo</button>]
+	
+	A class disabled deixa o botão com o estado desativado
+    	<button class="btn btn-info disabled" type="button">Inativo</button>
+
+
+BOTÃO COM ESTADO ALTERNADOS
+	O atributo data-toggle="button" cria um botão com estado normal e ativado
+	<button class="btn btn-info" type="button" data-toggle="button">Alternar</button>
+
+
+GRUPOS DE BOTÕES
+	Podemos cria um grupo de botões com se fossem um menu horizontal
+	Usamos a class btn-group no container para criar um grupo
+	A colocamos os botões dentro do container
+	<div class="btn-group">
+        	<button class="btn btn-info" type="button">Esquerda</button>
+        	<button class="btn btn-info" type="button">Centro</button>
+        	<button class="btn btn-info" type="button">Direita</button>
+    	</div>
+
+
+GRUPOS DE BOTÕES VERICAIS
+	Podemos cria um grupo de botões com se fossem um menu vertical
+	Usamos a class btn-group-vertical no container para criar um grupo vertical
+	<div class="btn-group-vertical">
+        	<button class="btn btn-danger" type="button">Topo</button>
+        	<button class="btn btn-danger" type="button">Meio</button>
+        	<button class="btn btn-danger" type="button">Fundo</button>
+    	</div>
+
+
+TOOLBAR DE BOTÕES
+	No container principal usamos a class btn-toolbar para criar uma barra de botões
+	Nos containers filhos usamos a class btn-group para agrupar os botões
+	A por ultimo, criamos os botões em cada div filha
+	<div class="btn-toolbar">
+        <div class="btn-group">
+        	<button class="btn btn-warning" type="button">1</button>
+           	<button class="btn btn-warning" type="button">2</button>
+           	<button class="btn btn-warning" type="button">3</button>
+        </div>
+        <div class="btn-group">
+            	<button class="btn btn-warning" type="button">4</button>
+            	<button class="btn btn-warning" type="button">5</button>
+        </div>
+    	</div>
+
+
+BOTÕES DROPDOWN
+
+	Na div principal usamos a class dropdown para cria o menu dropdown
+	Dentro da div criamos um <button> com a class dropdown-toggle e tambem criamos um atributo data-toggle="dropdown"
+	Abaixo do botão criamos uma div com links dentro, esses links ficaram dentro do botton dropdown
+	
+	A div com os links vai receber a class dropdown-menu, os os links dentro da div receberão a class dropdown-item
+	<div class="dropdown">
+        	<button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown"> Clique </button>
+        	<div class="dropdown-menu">
+            		<a href="#" class="dropdown-item">Link 1</a>
+            		<div class="dropdown-divider"></div>
+            		<a href="#" class="dropdown-item">Link 2</a>
+            		<a href="#" class="dropdown-item">Link 3</a>
+        	</div>
+    	</div>

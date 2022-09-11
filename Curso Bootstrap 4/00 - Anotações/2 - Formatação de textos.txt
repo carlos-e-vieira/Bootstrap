@@ -1,0 +1,93 @@
+FORMATAÇÃO DE TEXTOS
+	CABEÇALHOS - H1 H2 etc
+	Podemos aplicar uma classe de cabeçalhos bootstrap em outro cabeçalho:
+	<h5 class="h1">Cabeçalho 5</h5>
+	Isso faz o h5 se transformar em h1
+
+
+	DISPLAY
+	Podemos utilizar essa classe para dar um mair destque ao cabeçalho:
+	<h1 class="display-1">Display 1</h1>
+	Isso pode ser usado para textos de slides, textos com maior destaque
+
+
+	PARAGRÁFOS - LEAD
+	Podemos aplicar a class lead para dar um destaque maior para o paragráfo:
+	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+	PARAGRÁFOS - MONOSPACE
+	Podemos aplicar a class monospace para deixar todas as letras com a mesma largura:
+	<p class="text-monospace">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+	ESTILOS
+	Podemos utilizar a classe font-weight-bold  para deixar o texto em negrito 
+	<p class="font-weight-bold">Texto Negrito</p>
+	
+	Podemos utilizar a classe font-weight-normal para deixar o texto normal
+   	<p class="font-weight-normal">Texto Normal</p>
+
+	Podemos utilizar a classe font-italic para deixar o texto em itálico
+   	<p class="font-italic">Texto Itálico</p>
+
+
+	TRANSFORMAÇÕES DE TEXTOS
+	Podemos utilizar a class text-uppercase para deixar todas as letras maiusculas
+	<p class="text-uppercase">Letras Maiusculas</p>
+
+	Podemos utilizar a class text-lowercaser para deixar todas as letras minusculas
+    	<p class="text-lowercase">Letras Minusculas</p>
+
+	Podemos utilizar a class text-capitalize para deixar as primeiras lestras maiusculas
+    	<p class="text-capitalize">primeira maiscula</p>
+
+
+	ALINHAMENTOS
+	Podemos utilizar a class text-right para alinhar o texto a direita
+	<p class="text-right">Direita</p>
+
+	Podemos utilizar a class text-left para alinhar o texto a esquerda
+    	<p class="text-left">Esquerda</p>
+
+	Podemos utilizar a class text-center para deixar o texto centralizado
+    	<p class="text-center">Centralizado</p>
+
+
+	BLOCO DE CITAÇÃO
+	A tag blockquote criar um bloco de citação no html 5
+	A class blockquote deixa o bloco de citação com maior destaque
+	<blockquote class="blockquote text-center">
+      		<p>Esse é um bloco de citação!</p>
+    	</blockquote>
+
+
+	BLOCO DE CITAÇÃO COM RODAPÉ
+	Podemos inserir uma teg html 5 footer dentro da tag blockquote para criar um rodapé
+	Dentro do footer, podemos criar uma tag <cite> para criar uma assinatura
+	Podemos utilizar a class blockquote-footer para estilizar o rodapé do bloco de citação
+	<blockquote class="blockquote text-right">
+      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      		<footer class="blockquote-footer">por
+        		<cite>Carlos Eduardo</cite>
+      		</footer>
+    	</blockquote>
+
+
+	TRUNCATE - CORTA TEXTOS
+	Essa class pode ser usada para cortar textos em dispositivos menores
+	<p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+	LISTA SEM ESTILO
+	Podemos utilizar essa class para remover todos os estilos da ul
+	<ul class="list-unstyled">
+      		<li>Item 1</li>
+    	</ul>
+
+
+	LISTA INLINE
+	Podemos utlizar essa class para deixar todos os itens em uma única linha
+	<ul class="list-inline">
+      		<li class="list-inline-item">Item 1</li>
+    	</ul>

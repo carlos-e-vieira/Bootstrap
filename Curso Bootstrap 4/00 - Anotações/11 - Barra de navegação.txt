@@ -1,0 +1,72 @@
+BARRA DE NAVEGAÇÃO
+
+LINKS UTEIS
+	https://getbootstrap.com/docs/4.1/components/navbar/
+	https://getbootstrap.com/docs/4.1/components/navs/
+
+BARRA DE NAVAGAÇÃO SIMPLES - PILLS
+	Criando uma barra de navegação com pilhas
+
+	Na <ul> criamos usamos a class nav-pills para criar uma barra de naveção com pilhas, botões arredondados
+	Na <li> usamos a class nav-item
+	No link usamos a class nav-link
+	<ul class="nav nav-pills">
+        	<li class="nav-item">
+            		<a href="" class="nav-link">Home</a>
+       		</li>
+    	</ul>
+
+
+
+BARRA DE NAVAGAÇÃO SIMPLES - TABS
+	Criando uma barra de navegação com abas
+
+	Na <ul> criamos usamos a class nav-tabs para criar uma barra de naveção com abas
+	Na <li> usamos a class nav-item
+	No link usamos a class nav-link
+	<ul class="nav nav-pills">
+        	<li class="nav-item">
+            		<a href="" class="nav-link">Home</a>
+       		</li>
+    	</ul>
+
+
+OPÇÕES DE ALINHAMENTOS
+	Podemos alinhar os itens da barra de nav com class especificas
+	
+	A class justify-content-center alinha os itens da nav no centro
+	<ul class="nav nav-pills justify-content-center"></ul>
+
+	A class justify-content-end alinha os itens da nav a direita
+	<ul class="nav nav-pills justify-content-end"></ul>
+
+	A class flex-column deixa os itens da nav na vertical
+	<ul class="nav nav-pills flex-column"></ul>
+
+
+BARRA DE NAVAGAÇÃO SIMPLES
+
+	Cirando uma barra de navagação com logo
+	
+	Na tag <nav> usamos as seguntes classes:
+	A class navbar para criar um menu, a class navbar-expand-sm para configurar a largura responsiva do menu,
+	A class navbar-dark da cor clara aos botões do menu e a class bg-dark aplica um background no menu
+
+	No logo <a> aplicamos uma class navbar-brand para informar que o link é um logo
+
+	Na <ul> dentro da nav, usamos a class navbar-nav para linkar a ul a tag nav
+	Usamos a class ml-auto (margin-left) para deixarmos os itens do menu alinhados a direita
+
+	Na <li> usamos a class nav-item
+	No link <a> usamos a class nav-link
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        	<!-- logo -->
+        	<a href="" class="navbar-brand">Chalé Hotel</a>
+        
+        	<!-- barra de navegação -->
+        	<ul class="navbar-nav ml-auto">
+            		<li class="nav-item">
+                		<a href="" class="nav-link">Home</a>
+            		</li>
+        	</ul>
+    	</nav>

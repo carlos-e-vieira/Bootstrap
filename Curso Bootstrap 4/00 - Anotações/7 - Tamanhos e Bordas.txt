@@ -1,0 +1,97 @@
+TAMANHOS E BORDAS
+
+LARGURAS - WIDTH
+	A class w-25 define uma largura de 25%
+	<div class="bg-primary w-25">width 25%</div>
+
+	A class w-50 define uma largura de 50%
+    	<div class="bg-primary w-50">width 50%</div>
+
+	A class w-75 define uma largura de 75%
+    	<div class="bg-primary w-75">width 75%</div>
+
+	A class w-100 define uma largura de 100%
+    	<div class="bg-primary w-100">width 100%</div>
+
+	A class w-auto define uma largura automatica
+    	<div class="bg-primary w-auto">width auto</div>
+
+
+ALTURAS - HEIGHT
+	A class h-25 define uma altura de 25%
+	<div class="bg-warning d-inline-block h-25">height 25%</div>
+
+	A class h-50 define uma altura de 50%
+        <div class="bg-warning d-inline-block h-50">height 50%</div>
+
+	A class h-75 define uma altura de 75%
+        <div class="bg-warning d-inline-block h-75">height 75%</div>
+
+	A class h-100 define uma atura de 100%
+        <div class="bg-warning d-inline-block h-100">height 100%</div>
+
+	A class h-auto define uma autura automática
+        <div class="bg-warning d-inline-block h-auto">height auto</div>
+
+
+BORDAS
+	border        -> todas as bordas
+    	border-top    -> borda superior
+    	border-bottom -> borda inferior
+    	border-right  -> bordar direita
+    	border-left   -> borda esquerda
+
+	A class border aplica borda em todos os cantos
+    	<div class="bg-white mb-2 border">todas as bordas</div>
+
+	A class border-top aplica uma borda top
+    	<div class="bg-white mb-2 border-top">borda superior</div>
+
+	A class border-bottom aplica uma borda no bottom
+    	<div class="bg-white mb-2 border-bottom">borda inferior</div>
+
+	A class border-right aplica uma borda na direita
+    	<div class="bg-white mb-2 border-right">borda direita</div>
+
+	A class border-left aplica uma borda a esquerda
+    	<div class="bg-white mb-2 border-left">borda esquerda</div>
+
+
+CORES EM BORDAS
+	border-<cor>: primary, secondary, success, info, warning, danger, light, dark, white
+    	
+	A class border-primary aplica a cor primeria na borda
+    	<div class="bg-white mb-2 border border-primary">todas as bordas</div>
+
+	A class border-secondary aplica a cor secundaria na borda
+    	<div class="bg-white mb-2 border-top border-secondary">borda superior</div>
+
+	A class border-warning aplica a cor laranja na borda
+    	<div class="bg-white mb-2 border-bottom border-warning">borda inferior</div>
+
+	A class border-danger aplica a cor vermelha na borda
+    	<div class="bg-white mb-2 border-right border-danger">borda direita</div>
+
+	A class border-success aplica a cor verde na borda
+    	<div class="bg-white mb-2 border-left border-success">borda esquerda</div>
+
+
+BORDER RADIUS - ARREDONDAMENTO DA BORDA
+	
+	A class rounded aplica um arredondamento em todos os cantos da borda
+	<div class="bg-light mb-2 border rounded">rounded</div>
+
+	A class rounded-top aplica um arredondamento no topo da borda
+    	<div class="bg-light mb-2 border rounded-top">rounded top</div>
+
+	A class rounded-bottom aplica um arredondamento na parte inferior da borda
+    	<div class="bg-light mb-2 border rounded-bottom">rounded bottom</div>
+
+	A class rounded-right aplica um arredondamento na parte direita da borda
+    	<div class="bg-light mb-2 border rounded-right">rounded right</div>
+
+	A class rounded-left aplica um arredondamento na parte esquerda da borda
+    	<div class="bg-light mb-2 border rounded-left">rounded left</div>
+
+	A class rounded-circle transforma a borda em um circulo, claro que o width e o height tem que ter as mesmas medidas
+    	<div class="bg-light mb-2 p-5 border w-25 rounded-circle">rounded
